@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* AllPianoAppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AllPianoAppAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		2899E5600DE3E45000AC0155 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E55F0DE3E45000AC0155 /* RootViewController.xib */; };
+		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
+		90583F8011DBC4DA002B0928 /* Baldwin L 6' 3".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F3E11DBC4D9002B0928 /* Baldwin L 6' 3".pdf */; };
+		90583F8111DBC4DA002B0928 /* Baldwin M 5' 2".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F3F11DBC4D9002B0928 /* Baldwin M 5' 2".pdf */; };
+		90583F8211DBC4DA002B0928 /* Baldwin R 5' 8".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F4011DBC4D9002B0928 /* Baldwin R 5' 8".pdf */; };
+		90583F8311DBC4DA002B0928 /* Baldwin SF10 7'.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F4111DBC4D9002B0928 /* Baldwin SF10 7'.pdf */; };
+		90583F8411DBC4DA002B0928 /* Baldwin SD10 9'.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F4211DBC4D9002B0928 /* Baldwin SD10 9'.pdf */; };
+		90583F8511DBC4DA002B0928 /* Bechstein 5' 7".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F4311DBC4D9002B0928 /* Bechstein 5' 7".pdf */; };
+		90583F8611DBC4DA002B0928 /* Bluthner Model 4 6' 10".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F4411DBC4D9002B0928 /* Bluthner Model 4 6' 10".pdf */; };
+		90583F8711DBC4DA002B0928 /* Bosendorfer 170 5' 8".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F4511DBC4D9002B0928 /* Bosendorfer 170 5' 8".pdf */; };
+		90583F8811DBC4DA002B0928 /* Bosendorfer 290 Imperial 9' 6".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F4611DBC4DA002B0928 /* Bosendorfer 290 Imperial 9' 6".pdf */; };
+		90583F8911DBC4DA002B0928 /* Boston GP156 5' 1".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F4711DBC4DA002B0928 /* Boston GP156 5' 1".pdf */; };
+		90583F8A11DBC4DA002B0928 /* Boston GP178 5' 10".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F4811DBC4DA002B0928 /* Boston GP178 5' 10".pdf */; };
+		90583F8B11DBC4DA002B0928 /* Boston GP193 6' 2".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F4911DBC4DA002B0928 /* Boston GP193 6' 2".pdf */; };
+		90583F8C11DBC4DA002B0928 /* Chickering 6' 4".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F4A11DBC4DA002B0928 /* Chickering 6' 4".pdf */; };
+		90583F8D11DBC4DA002B0928 /* Chickering 410 4' 11".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F4B11DBC4DA002B0928 /* Chickering 410 4' 11".pdf */; };
+		90583F8E11DBC4DA002B0928 /* Estonia 5 5 '6".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F4C11DBC4DA002B0928 /* Estonia 5 5 '6".pdf */; };
+		90583F8F11DBC4DA002B0928 /* Estonia 7 6' 4".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F4D11DBC4DA002B0928 /* Estonia 7 6' 4".pdf */; };
+		90583F9011DBC4DA002B0928 /* Kawai GE-1 5' 1".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F4E11DBC4DA002B0928 /* Kawai GE-1 5' 1".pdf */; };
+		90583F9111DBC4DA002B0928 /* Kawai GE-2 & GE-3 (5'8") 5' '7".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F4F11DBC4DA002B0928 /* Kawai GE-2 & GE-3 (5'8") 5' '7".pdf */; };
+		90583F9211DBC4DA002B0928 /* Kawai GM-1 4' 9".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F5011DBC4DA002B0928 /* Kawai GM-1 4' 9".pdf */; };
+		90583F9311DBC4DA002B0928 /* Kawai GM-2 5'.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F5111DBC4DA002B0928 /* Kawai GM-2 5'.pdf */; };
+		90583F9411DBC4DA002B0928 /* Kawai GS-40 6' 1".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F5211DBC4DA002B0928 /* Kawai GS-40 6' 1".pdf */; };
+		90583F9511DBC4DA002B0928 /* Kawai RX1 5' 5".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F5311DBC4DA002B0928 /* Kawai RX1 5' 5".pdf */; };
+		90583F9611DBC4DA002B0928 /* Kawai RX2 5' 10".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F5411DBC4DA002B0928 /* Kawai RX2 5' 10".pdf */; };
+		90583F9711DBC4DA002B0928 /* Kawai RX3 6' 1".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F5511DBC4DA002B0928 /* Kawai RX3 6' 1".pdf */; };
+		90583F9811DBC4DA002B0928 /* Kawai RX5 6' 6".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F5611DBC4DA002B0928 /* Kawai RX5 6' 6".pdf */; };
+		90583F9911DBC4DA002B0928 /* Kawai RX6 7'.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F5711DBC4DA002B0928 /* Kawai RX6 7'.pdf */; };
+		90583F9A11DBC4DA002B0928 /* Kawai RX7 7' 6".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F5811DBC4DA002B0928 /* Kawai RX7 7' 6".pdf */; };
+		90583F9B11DBC4DA002B0928 /* Knabe (made prior to 1196) 5' 3".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F5911DBC4DA002B0928 /* Knabe (made prior to 1196) 5' 3".pdf */; };
+		90583F9C11DBC4DA002B0928 /* Knabe (made prior to 1196) 6'.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F5A11DBC4DA002B0928 /* Knabe (made prior to 1196) 6'.pdf */; };
+		90583F9D11DBC4DA002B0928 /* Knabe (made prior to 1196) 8' 6".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F5B11DBC4DA002B0928 /* Knabe (made prior to 1196) 8' 6".pdf */; };
+		90583F9E11DBC4DA002B0928 /* Kohler & Campbell SKG 600S 5' 9".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F5C11DBC4DA002B0928 /* Kohler & Campbell SKG 600S 5' 9".pdf */; };
+		90583F9F11DBC4DA002B0928 /* Kohler & Campbell KIG47 & SKG 400S 4' 7".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F5D11DBC4DA002B0928 /* Kohler & Campbell KIG47 & SKG 400S 4' 7".pdf */; };
+		90583FA011DBC4DA002B0928 /* Kohler & Campbell SKG 500 5' 1".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F5E11DBC4DA002B0928 /* Kohler & Campbell SKG 500 5' 1".pdf */; };
+		90583FA111DBC4DA002B0928 /* Mason & Hamlin A 5' 8".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F5F11DBC4DA002B0928 /* Mason & Hamlin A 5' 8".pdf */; };
+		90583FA211DBC4DA002B0928 /* Mason & Hamlin AA 6' 4".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F6011DBC4DA002B0928 /* Mason & Hamlin AA 6' 4".pdf */; };
+		90583FA311DBC4DA002B0928 /* Petrof IV 5' 8".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F6111DBC4DA002B0928 /* Petrof IV 5' 8".pdf */; };
+		90583FA411DBC4DA002B0928 /* Petrof V 5' 3".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F6211DBC4DA002B0928 /* Petrof V 5' 3".pdf */; };
+		90583FA511DBC4DA002B0928 /* Reiger - Kloss 6' 1".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F6311DBC4DA002B0928 /* Reiger - Kloss 6' 1".pdf */; };
+		90583FA611DBC4DA002B0928 /* Samick Sig 150 C 5' 1".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F6411DBC4DA002B0928 /* Samick Sig 150 C 5' 1".pdf */; };
+		90583FA711DBC4DA002B0928 /* Samick SIG50 4' 11".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F6511DBC4DA002B0928 /* Samick SIG50 4' 11".pdf */; };
+		90583FA811DBC4DA002B0928 /* Schimmel 150 5'.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F6611DBC4DA002B0928 /* Schimmel 150 5'.pdf */; };
+		90583FA911DBC4DA002B0928 /* Schimmel 174 5' 10".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F6711DBC4DA002B0928 /* Schimmel 174 5' 10".pdf */; };
+		90583FAA11DBC4DA002B0928 /* Schimmel 182 6'.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F6811DBC4DA002B0928 /* Schimmel 182 6'.pdf */; };
+		90583FAB11DBC4DA002B0928 /* Schimmel 208 & 213 (7') 6' 10".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F6911DBC4DA002B0928 /* Schimmel 208 & 213 (7') 6' 10".pdf */; };
+		90583FAC11DBC4DA002B0928 /* Schimmel 256 8' 4".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F6A11DBC4DA002B0928 /* Schimmel 256 8' 4".pdf */; };
+		90583FAD11DBC4DA002B0928 /* Seiler 206 6' 8".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F6B11DBC4DA002B0928 /* Seiler 206 6' 8".pdf */; };
+		90583FAE11DBC4DA002B0928 /* Steinway A 6' 2".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F6C11DBC4DA002B0928 /* Steinway A 6' 2".pdf */; };
+		90583FAF11DBC4DA002B0928 /* Steinway B 6' 10".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F6D11DBC4DA002B0928 /* Steinway B 6' 10".pdf */; };
+		90583FB011DBC4DA002B0928 /* Steinway D 9'.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F6E11DBC4DA002B0928 /* Steinway D 9'.pdf */; };
+		90583FB111DBC4DA002B0928 /* Steinway L 5' 10".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F6F11DBC4DA002B0928 /* Steinway L 5' 10".pdf */; };
+		90583FB211DBC4DA002B0928 /* Steinway M 5' 7".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F7011DBC4DA002B0928 /* Steinway M 5' 7".pdf */; };
+		90583FB311DBC4DA002B0928 /* Steinway O 5' 10".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F7111DBC4DA002B0928 /* Steinway O 5' 10".pdf */; };
+		90583FB411DBC4DA002B0928 /* Steinway S 5' 2".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F7211DBC4DA002B0928 /* Steinway S 5' 2".pdf */; };
+		90583FB511DBC4DA002B0928 /* Charles R. Walter 6' 2".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F7311DBC4DA002B0928 /* Charles R. Walter 6' 2".pdf */; };
+		90583FB611DBC4DA002B0928 /* Wurlitzer 158C 5'1".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F7411DBC4DA002B0928 /* Wurlitzer 158C 5'1".pdf */; };
+		90583FB711DBC4DA002B0928 /* Wurlitzer G143 4' '7".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F7511DBC4DA002B0928 /* Wurlitzer G143 4' '7".pdf */; };
+		90583FB811DBC4DA002B0928 /* Yamaha C1 5' 1".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F7611DBC4DA002B0928 /* Yamaha C1 5' 1".pdf */; };
+		90583FB911DBC4DA002B0928 /* Yamaha C2 & G2 (5'8") 5' 7".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F7711DBC4DA002B0928 /* Yamaha C2 & G2 (5'8") 5' 7".pdf */; };
+		90583FBA11DBC4DA002B0928 /* Yamaha C3 & G3B (6' 1"), G3 (6') 6' 1".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F7811DBC4DA002B0928 /* Yamaha C3 & G3B (6' 1"), G3 (6') 6' 1".pdf */; };
+		90583FBB11DBC4DA002B0928 /* Yamaha C7 7' 6".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F7911DBC4DA002B0928 /* Yamaha C7 7' 6".pdf */; };
+		90583FBC11DBC4DA002B0928 /* Yamaha CF 9'.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F7A11DBC4DA002B0928 /* Yamaha CF 9'.pdf */; };
+		90583FBD11DBC4DA002B0928 /* Yamaha GA1 4' 11".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F7B11DBC4DA002B0928 /* Yamaha GA1 4' 11".pdf */; };
+		90583FBE11DBC4DA002B0928 /* Yamaha GH1 & GP1 5' 3".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F7C11DBC4DA002B0928 /* Yamaha GH1 & GP1 5' 3".pdf */; };
+		90583FBF11DBC4DA002B0928 /* Young Chang G175; Weber WG 57; Knabe KM 590 5' 9".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F7D11DBC4DA002B0928 /* Young Chang G175; Weber WG 57; Knabe KM 590 5' 9".pdf */; };
+		90583FC011DBC4DA002B0928 /* Young Chang G185; Weber WG 60; Knabe KM 610 6' 1".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F7E11DBC4DA002B0928 /* Young Chang G185; Weber WG 60; Knabe KM 610 6' 1".pdf */; };
+		90583FC111DBC4DA002B0928 /* Young Chang G157; Weber WG 51; Knabe KM 520; Schaffer & Son 5' 2".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 90583F7F11DBC4DA002B0928 /* Young Chang G157; Weber WG 51; Knabe KM 520; Schaffer & Son 5' 2".pdf */; };
+		90583FC311DBC5A8002B0928 /* schematics.txt in Resources */ = {isa = PBXBuildFile; fileRef = 90583FC211DBC5A8002B0928 /* schematics.txt */; };
+		9058414A11DBDC56002B0928 /* Schaffer & Son 5' 2".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9058414511DBDC56002B0928 /* Schaffer & Son 5' 2".pdf */; };
+		9058414B11DBDC56002B0928 /* Weber WG51 5' 1".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9058414611DBDC56002B0928 /* Weber WG51 5' 1".pdf */; };
+		9058414C11DBDC56002B0928 /* Weber WG57 5' 7".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9058414711DBDC56002B0928 /* Weber WG57 5' 7".pdf */; };
+		9058414D11DBDC56002B0928 /* Weber WG60 6' 1".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9058414811DBDC56002B0928 /* Weber WG60 6' 1".pdf */; };
+		9058414E11DBDC56002B0928 /* Wurlitzer C153 5' 1".pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9058414911DBDC56002B0928 /* Wurlitzer C153 5' 1".pdf */; };
+		90B9729712023240007FD72D /* flipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B9729512023240007FD72D /* flipView.m */; };
+		90B9729812023240007FD72D /* flipView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90B9729612023240007FD72D /* flipView.xib */; };
+		90C6A8471141AABF00ED5AA8 /* menuVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C6A8451141AABF00ED5AA8 /* menuVC.m */; };
+		90C6A8481141AABF00ED5AA8 /* menuVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90C6A8461141AABF00ED5AA8 /* menuVC.xib */; };
+		90C6A86E1141AE3D00ED5AA8 /* cover.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C6A86D1141AE3D00ED5AA8 /* cover.png */; };
+		90C6EDB51141B9B9007291C8 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 90C6EDB41141B9B9007291C8 /* Entitlements.plist */; };
+		90D3C75A11C9820300155EF1 /* Untitled-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 90D3C75911C9820300155EF1 /* Untitled-1.png */; };
+		90E04D0611EE58D200B7952C /* 440hzShort.caf in Resources */ = {isa = PBXBuildFile; fileRef = 90E04D0511EE58D200B7952C /* 440hzShort.caf */; };
+		90E29B4111E7B1BF007472B4 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90E29B4011E7B1BF007472B4 /* OpenAL.framework */; };
+		90E29B4311E7B1BF007472B4 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90E29B4211E7B1BF007472B4 /* OpenGLES.framework */; };
+		90E29B4A11E7B1F7007472B4 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 90E29B4911E7B1F7007472B4 /* libz.dylib */; };
+		90E29B4E11E7B200007472B4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90E29B4D11E7B200007472B4 /* AudioToolbox.framework */; };
+		90E29B5411E7B220007472B4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90E29B5311E7B220007472B4 /* QuartzCore.framework */; };
+		90E29FFC11E7B4EC007472B4 /* CDAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E29C1D11E7B4E9007472B4 /* CDAudioManager.m */; };
+		90E29FFD11E7B4EC007472B4 /* CocosDenshion.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E29C2111E7B4E9007472B4 /* CocosDenshion.m */; };
+		90E29FFE11E7B4EC007472B4 /* SimpleAudioEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E29C2311E7B4E9007472B4 /* SimpleAudioEngine.m */; };
+		90E2A3F811E7B792007472B4 /* Bleep.caf in Resources */ = {isa = PBXBuildFile; fileRef = 90E2A3F711E7B792007472B4 /* Bleep.caf */; };
+		90ED263611C08740009B0B1D /* cover2.png in Resources */ = {isa = PBXBuildFile; fileRef = 90ED263511C08740009B0B1D /* cover2.png */; };
+		90ED264711C08874009B0B1D /* 440hz.wav in Resources */ = {isa = PBXBuildFile; fileRef = 90ED264611C08874009B0B1D /* 440hz.wav */; };
+		90ED264911C088E5009B0B1D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90ED264811C088E5009B0B1D /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* AllPianoAppAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllPianoAppAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* AllPianoAppAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllPianoAppAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* AllPianoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllPianoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E55F0DE3E45000AC0155 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		28A0AAE50D9B0CCF005BE974 /* AllPianoApp_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllPianoApp_Prefix.pch; sourceTree = "<group>"; };
+		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		28C286E00D94DF7D0034E888 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* AllPianoApp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AllPianoApp-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		90583F3E11DBC4D9002B0928 /* Baldwin L 6' 3".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Baldwin L 6' 3\".pdf"; sourceTree = "<group>"; };
+		90583F3F11DBC4D9002B0928 /* Baldwin M 5' 2".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Baldwin M 5' 2\".pdf"; sourceTree = "<group>"; };
+		90583F4011DBC4D9002B0928 /* Baldwin R 5' 8".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Baldwin R 5' 8\".pdf"; sourceTree = "<group>"; };
+		90583F4111DBC4D9002B0928 /* Baldwin SF10 7'.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Baldwin SF10 7'.pdf"; sourceTree = "<group>"; };
+		90583F4211DBC4D9002B0928 /* Baldwin SD10 9'.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Baldwin SD10 9'.pdf"; sourceTree = "<group>"; };
+		90583F4311DBC4D9002B0928 /* Bechstein 5' 7".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Bechstein 5' 7\".pdf"; sourceTree = "<group>"; };
+		90583F4411DBC4D9002B0928 /* Bluthner Model 4 6' 10".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Bluthner Model 4 6' 10\".pdf"; sourceTree = "<group>"; };
+		90583F4511DBC4D9002B0928 /* Bosendorfer 170 5' 8".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Bosendorfer 170 5' 8\".pdf"; sourceTree = "<group>"; };
+		90583F4611DBC4DA002B0928 /* Bosendorfer 290 Imperial 9' 6".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Bosendorfer 290 Imperial 9' 6\".pdf"; sourceTree = "<group>"; };
+		90583F4711DBC4DA002B0928 /* Boston GP156 5' 1".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Boston GP156 5' 1\".pdf"; sourceTree = "<group>"; };
+		90583F4811DBC4DA002B0928 /* Boston GP178 5' 10".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Boston GP178 5' 10\".pdf"; sourceTree = "<group>"; };
+		90583F4911DBC4DA002B0928 /* Boston GP193 6' 2".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Boston GP193 6' 2\".pdf"; sourceTree = "<group>"; };
+		90583F4A11DBC4DA002B0928 /* Chickering 6' 4".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Chickering 6' 4\".pdf"; sourceTree = "<group>"; };
+		90583F4B11DBC4DA002B0928 /* Chickering 410 4' 11".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Chickering 410 4' 11\".pdf"; sourceTree = "<group>"; };
+		90583F4C11DBC4DA002B0928 /* Estonia 5 5 '6".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Estonia 5 5 '6\".pdf"; sourceTree = "<group>"; };
+		90583F4D11DBC4DA002B0928 /* Estonia 7 6' 4".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Estonia 7 6' 4\".pdf"; sourceTree = "<group>"; };
+		90583F4E11DBC4DA002B0928 /* Kawai GE-1 5' 1".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Kawai GE-1 5' 1\".pdf"; sourceTree = "<group>"; };
+		90583F4F11DBC4DA002B0928 /* Kawai GE-2 & GE-3 (5'8") 5' '7".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Kawai GE-2 & GE-3 (5'8\") 5' '7\".pdf"; sourceTree = "<group>"; };
+		90583F5011DBC4DA002B0928 /* Kawai GM-1 4' 9".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Kawai GM-1 4' 9\".pdf"; sourceTree = "<group>"; };
+		90583F5111DBC4DA002B0928 /* Kawai GM-2 5'.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Kawai GM-2 5'.pdf"; sourceTree = "<group>"; };
+		90583F5211DBC4DA002B0928 /* Kawai GS-40 6' 1".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Kawai GS-40 6' 1\".pdf"; sourceTree = "<group>"; };
+		90583F5311DBC4DA002B0928 /* Kawai RX1 5' 5".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Kawai RX1 5' 5\".pdf"; sourceTree = "<group>"; };
+		90583F5411DBC4DA002B0928 /* Kawai RX2 5' 10".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Kawai RX2 5' 10\".pdf"; sourceTree = "<group>"; };
+		90583F5511DBC4DA002B0928 /* Kawai RX3 6' 1".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Kawai RX3 6' 1\".pdf"; sourceTree = "<group>"; };
+		90583F5611DBC4DA002B0928 /* Kawai RX5 6' 6".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Kawai RX5 6' 6\".pdf"; sourceTree = "<group>"; };
+		90583F5711DBC4DA002B0928 /* Kawai RX6 7'.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Kawai RX6 7'.pdf"; sourceTree = "<group>"; };
+		90583F5811DBC4DA002B0928 /* Kawai RX7 7' 6".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Kawai RX7 7' 6\".pdf"; sourceTree = "<group>"; };
+		90583F5911DBC4DA002B0928 /* Knabe (made prior to 1196) 5' 3".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Knabe (made prior to 1196) 5' 3\".pdf"; sourceTree = "<group>"; };
+		90583F5A11DBC4DA002B0928 /* Knabe (made prior to 1196) 6'.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Knabe (made prior to 1196) 6'.pdf"; sourceTree = "<group>"; };
+		90583F5B11DBC4DA002B0928 /* Knabe (made prior to 1196) 8' 6".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Knabe (made prior to 1196) 8' 6\".pdf"; sourceTree = "<group>"; };
+		90583F5C11DBC4DA002B0928 /* Kohler & Campbell SKG 600S 5' 9".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Kohler & Campbell SKG 600S 5' 9\".pdf"; sourceTree = "<group>"; };
+		90583F5D11DBC4DA002B0928 /* Kohler & Campbell KIG47 & SKG 400S 4' 7".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Kohler & Campbell KIG47 & SKG 400S 4' 7\".pdf"; sourceTree = "<group>"; };
+		90583F5E11DBC4DA002B0928 /* Kohler & Campbell SKG 500 5' 1".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Kohler & Campbell SKG 500 5' 1\".pdf"; sourceTree = "<group>"; };
+		90583F5F11DBC4DA002B0928 /* Mason & Hamlin A 5' 8".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Mason & Hamlin A 5' 8\".pdf"; sourceTree = "<group>"; };
+		90583F6011DBC4DA002B0928 /* Mason & Hamlin AA 6' 4".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Mason & Hamlin AA 6' 4\".pdf"; sourceTree = "<group>"; };
+		90583F6111DBC4DA002B0928 /* Petrof IV 5' 8".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Petrof IV 5' 8\".pdf"; sourceTree = "<group>"; };
+		90583F6211DBC4DA002B0928 /* Petrof V 5' 3".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Petrof V 5' 3\".pdf"; sourceTree = "<group>"; };
+		90583F6311DBC4DA002B0928 /* Reiger - Kloss 6' 1".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Reiger - Kloss 6' 1\".pdf"; sourceTree = "<group>"; };
+		90583F6411DBC4DA002B0928 /* Samick Sig 150 C 5' 1".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Samick Sig 150 C 5' 1\".pdf"; sourceTree = "<group>"; };
+		90583F6511DBC4DA002B0928 /* Samick SIG50 4' 11".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Samick SIG50 4' 11\".pdf"; sourceTree = "<group>"; };
+		90583F6611DBC4DA002B0928 /* Schimmel 150 5'.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Schimmel 150 5'.pdf"; sourceTree = "<group>"; };
+		90583F6711DBC4DA002B0928 /* Schimmel 174 5' 10".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Schimmel 174 5' 10\".pdf"; sourceTree = "<group>"; };
+		90583F6811DBC4DA002B0928 /* Schimmel 182 6'.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Schimmel 182 6'.pdf"; sourceTree = "<group>"; };
+		90583F6911DBC4DA002B0928 /* Schimmel 208 & 213 (7') 6' 10".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Schimmel 208 & 213 (7') 6' 10\".pdf"; sourceTree = "<group>"; };
+		90583F6A11DBC4DA002B0928 /* Schimmel 256 8' 4".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Schimmel 256 8' 4\".pdf"; sourceTree = "<group>"; };
+		90583F6B11DBC4DA002B0928 /* Seiler 206 6' 8".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Seiler 206 6' 8\".pdf"; sourceTree = "<group>"; };
+		90583F6C11DBC4DA002B0928 /* Steinway A 6' 2".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Steinway A 6' 2\".pdf"; sourceTree = "<group>"; };
+		90583F6D11DBC4DA002B0928 /* Steinway B 6' 10".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Steinway B 6' 10\".pdf"; sourceTree = "<group>"; };
+		90583F6E11DBC4DA002B0928 /* Steinway D 9'.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Steinway D 9'.pdf"; sourceTree = "<group>"; };
+		90583F6F11DBC4DA002B0928 /* Steinway L 5' 10".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Steinway L 5' 10\".pdf"; sourceTree = "<group>"; };
+		90583F7011DBC4DA002B0928 /* Steinway M 5' 7".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Steinway M 5' 7\".pdf"; sourceTree = "<group>"; };
+		90583F7111DBC4DA002B0928 /* Steinway O 5' 10".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Steinway O 5' 10\".pdf"; sourceTree = "<group>"; };
+		90583F7211DBC4DA002B0928 /* Steinway S 5' 2".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Steinway S 5' 2\".pdf"; sourceTree = "<group>"; };
+		90583F7311DBC4DA002B0928 /* Charles R. Walter 6' 2".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Charles R. Walter 6' 2\".pdf"; sourceTree = "<group>"; };
+		90583F7411DBC4DA002B0928 /* Wurlitzer 158C 5'1".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Wurlitzer 158C 5'1\".pdf"; sourceTree = "<group>"; };
+		90583F7511DBC4DA002B0928 /* Wurlitzer G143 4' '7".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Wurlitzer G143 4' '7\".pdf"; sourceTree = "<group>"; };
+		90583F7611DBC4DA002B0928 /* Yamaha C1 5' 1".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Yamaha C1 5' 1\".pdf"; sourceTree = "<group>"; };
+		90583F7711DBC4DA002B0928 /* Yamaha C2 & G2 (5'8") 5' 7".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Yamaha C2 & G2 (5'8\") 5' 7\".pdf"; sourceTree = "<group>"; };
+		90583F7811DBC4DA002B0928 /* Yamaha C3 & G3B (6' 1"), G3 (6') 6' 1".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Yamaha C3 & G3B (6' 1\"), G3 (6') 6' 1\".pdf"; sourceTree = "<group>"; };
+		90583F7911DBC4DA002B0928 /* Yamaha C7 7' 6".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Yamaha C7 7' 6\".pdf"; sourceTree = "<group>"; };
+		90583F7A11DBC4DA002B0928 /* Yamaha CF 9'.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Yamaha CF 9'.pdf"; sourceTree = "<group>"; };
+		90583F7B11DBC4DA002B0928 /* Yamaha GA1 4' 11".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Yamaha GA1 4' 11\".pdf"; sourceTree = "<group>"; };
+		90583F7C11DBC4DA002B0928 /* Yamaha GH1 & GP1 5' 3".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Yamaha GH1 & GP1 5' 3\".pdf"; sourceTree = "<group>"; };
+		90583F7D11DBC4DA002B0928 /* Young Chang G175; Weber WG 57; Knabe KM 590 5' 9".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Young Chang G175; Weber WG 57; Knabe KM 590 5' 9\".pdf"; sourceTree = "<group>"; };
+		90583F7E11DBC4DA002B0928 /* Young Chang G185; Weber WG 60; Knabe KM 610 6' 1".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Young Chang G185; Weber WG 60; Knabe KM 610 6' 1\".pdf"; sourceTree = "<group>"; };
+		90583F7F11DBC4DA002B0928 /* Young Chang G157; Weber WG 51; Knabe KM 520; Schaffer & Son 5' 2".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Young Chang G157; Weber WG 51; Knabe KM 520; Schaffer & Son 5' 2\".pdf"; sourceTree = "<group>"; };
+		90583FC211DBC5A8002B0928 /* schematics.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = schematics.txt; sourceTree = "<group>"; };
+		9058414511DBDC56002B0928 /* Schaffer & Son 5' 2".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Schaffer & Son 5' 2\".pdf"; sourceTree = "<group>"; };
+		9058414611DBDC56002B0928 /* Weber WG51 5' 1".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Weber WG51 5' 1\".pdf"; sourceTree = "<group>"; };
+		9058414711DBDC56002B0928 /* Weber WG57 5' 7".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Weber WG57 5' 7\".pdf"; sourceTree = "<group>"; };
+		9058414811DBDC56002B0928 /* Weber WG60 6' 1".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Weber WG60 6' 1\".pdf"; sourceTree = "<group>"; };
+		9058414911DBDC56002B0928 /* Wurlitzer C153 5' 1".pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Wurlitzer C153 5' 1\".pdf"; sourceTree = "<group>"; };
+		90B9729412023240007FD72D /* flipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = flipView.h; sourceTree = "<group>"; };
+		90B9729512023240007FD72D /* flipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = flipView.m; sourceTree = "<group>"; };
+		90B9729612023240007FD72D /* flipView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = flipView.xib; sourceTree = "<group>"; };
+		90C6A8441141AABF00ED5AA8 /* menuVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = menuVC.h; sourceTree = "<group>"; };
+		90C6A8451141AABF00ED5AA8 /* menuVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = menuVC.m; sourceTree = "<group>"; };
+		90C6A8461141AABF00ED5AA8 /* menuVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = menuVC.xib; sourceTree = "<group>"; };
+		90C6A86D1141AE3D00ED5AA8 /* cover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cover.png; sourceTree = "<group>"; };
+		90C6EDB41141B9B9007291C8 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		90D3C75911C9820300155EF1 /* Untitled-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Untitled-1.png"; sourceTree = "<group>"; };
+		90E04D0511EE58D200B7952C /* 440hzShort.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 440hzShort.caf; sourceTree = "<group>"; };
+		90E29B4011E7B1BF007472B4 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = iphoneos3.0/System/Library/Frameworks/OpenAL.framework; sourceTree = "<group>"; };
+		90E29B4211E7B1BF007472B4 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = iphoneos3.0/System/Library/Frameworks/OpenGLES.framework; sourceTree = "<group>"; };
+		90E29B4911E7B1F7007472B4 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = iphoneos3.0/usr/lib/libz.dylib; sourceTree = "<group>"; };
+		90E29B4D11E7B200007472B4 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		90E29B5311E7B220007472B4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		90E29C1C11E7B4E9007472B4 /* CDAudioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDAudioManager.h; sourceTree = "<group>"; };
+		90E29C1D11E7B4E9007472B4 /* CDAudioManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDAudioManager.m; sourceTree = "<group>"; };
+		90E29C1E11E7B4E9007472B4 /* CDConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDConfig.h; sourceTree = "<group>"; };
+		90E29C1F11E7B4E9007472B4 /* CDOpenALSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDOpenALSupport.h; sourceTree = "<group>"; };
+		90E29C2011E7B4E9007472B4 /* CocosDenshion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocosDenshion.h; sourceTree = "<group>"; };
+		90E29C2111E7B4E9007472B4 /* CocosDenshion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CocosDenshion.m; sourceTree = "<group>"; };
+		90E29C2211E7B4E9007472B4 /* SimpleAudioEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleAudioEngine.h; sourceTree = "<group>"; };
+		90E29C2311E7B4E9007472B4 /* SimpleAudioEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleAudioEngine.m; sourceTree = "<group>"; };
+		90E2A3F711E7B792007472B4 /* Bleep.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bleep.caf; sourceTree = "<group>"; };
+		90ED263511C08740009B0B1D /* cover2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cover2.png; sourceTree = "<group>"; };
+		90ED264611C08874009B0B1D /* 440hz.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 440hz.wav; sourceTree = "<group>"; };
+		90ED264811C088E5009B0B1D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+				90ED264911C088E5009B0B1D /* AVFoundation.framework in Frameworks */,
+				90E29B4111E7B1BF007472B4 /* OpenAL.framework in Frameworks */,
+				90E29B4311E7B1BF007472B4 /* OpenGLES.framework in Frameworks */,
+				90E29B4A11E7B1F7007472B4 /* libz.dylib in Frameworks */,
+				90E29B4E11E7B200007472B4 /* AudioToolbox.framework in Frameworks */,
+				90E29B5411E7B220007472B4 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				90E29B7E11E7B4E9007472B4 /* cocos2d-iphone-0.99.3 */,
+				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
+				28C286E00D94DF7D0034E888 /* RootViewController.m */,
+				1D3623240D0F684500981E51 /* AllPianoAppAppDelegate.h */,
+				1D3623250D0F684500981E51 /* AllPianoAppAppDelegate.m */,
+				90C6A8441141AABF00ED5AA8 /* menuVC.h */,
+				90C6A8451141AABF00ED5AA8 /* menuVC.m */,
+				90C6A8461141AABF00ED5AA8 /* menuVC.xib */,
+				90B9729412023240007FD72D /* flipView.h */,
+				90B9729512023240007FD72D /* flipView.m */,
+				90B9729612023240007FD72D /* flipView.xib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* AllPianoApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				90C6EDB41141B9B9007291C8 /* Entitlements.plist */,
+				90E29B5311E7B220007472B4 /* QuartzCore.framework */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AAE50D9B0CCF005BE974 /* AllPianoApp_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				90E04D0511EE58D200B7952C /* 440hzShort.caf */,
+				90E2A3F711E7B792007472B4 /* Bleep.caf */,
+				90583FC211DBC5A8002B0928 /* schematics.txt */,
+				90583F3D11DBC4D9002B0928 /* Schematics */,
+				90D3C75911C9820300155EF1 /* Untitled-1.png */,
+				90ED264611C08874009B0B1D /* 440hz.wav */,
+				90ED263511C08740009B0B1D /* cover2.png */,
+				90C6A86D1141AE3D00ED5AA8 /* cover.png */,
+				2899E55F0DE3E45000AC0155 /* RootViewController.xib */,
+				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* AllPianoApp-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90E29B4911E7B1F7007472B4 /* libz.dylib */,
+				90E29B4011E7B1BF007472B4 /* OpenAL.framework */,
+				90E29B4211E7B1BF007472B4 /* OpenGLES.framework */,
+				90ED264811C088E5009B0B1D /* AVFoundation.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+				90E29B4D11E7B200007472B4 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		90583F3D11DBC4D9002B0928 /* Schematics */ = {
+			isa = PBXGroup;
+			children = (
+				9058414511DBDC56002B0928 /* Schaffer & Son 5' 2".pdf */,
+				9058414611DBDC56002B0928 /* Weber WG51 5' 1".pdf */,
+				9058414711DBDC56002B0928 /* Weber WG57 5' 7".pdf */,
+				9058414811DBDC56002B0928 /* Weber WG60 6' 1".pdf */,
+				9058414911DBDC56002B0928 /* Wurlitzer C153 5' 1".pdf */,
+				90583F3E11DBC4D9002B0928 /* Baldwin L 6' 3".pdf */,
+				90583F3F11DBC4D9002B0928 /* Baldwin M 5' 2".pdf */,
+				90583F4011DBC4D9002B0928 /* Baldwin R 5' 8".pdf */,
+				90583F4111DBC4D9002B0928 /* Baldwin SF10 7'.pdf */,
+				90583F4211DBC4D9002B0928 /* Baldwin SD10 9'.pdf */,
+				90583F4311DBC4D9002B0928 /* Bechstein 5' 7".pdf */,
+				90583F4411DBC4D9002B0928 /* Bluthner Model 4 6' 10".pdf */,
+				90583F4511DBC4D9002B0928 /* Bosendorfer 170 5' 8".pdf */,
+				90583F4611DBC4DA002B0928 /* Bosendorfer 290 Imperial 9' 6".pdf */,
+				90583F4711DBC4DA002B0928 /* Boston GP156 5' 1".pdf */,
+				90583F4811DBC4DA002B0928 /* Boston GP178 5' 10".pdf */,
+				90583F4911DBC4DA002B0928 /* Boston GP193 6' 2".pdf */,
+				90583F4A11DBC4DA002B0928 /* Chickering 6' 4".pdf */,
+				90583F4B11DBC4DA002B0928 /* Chickering 410 4' 11".pdf */,
+				90583F4C11DBC4DA002B0928 /* Estonia 5 5 '6".pdf */,
+				90583F4D11DBC4DA002B0928 /* Estonia 7 6' 4".pdf */,
+				90583F4E11DBC4DA002B0928 /* Kawai GE-1 5' 1".pdf */,
+				90583F4F11DBC4DA002B0928 /* Kawai GE-2 & GE-3 (5'8") 5' '7".pdf */,
+				90583F5011DBC4DA002B0928 /* Kawai GM-1 4' 9".pdf */,
+				90583F5111DBC4DA002B0928 /* Kawai GM-2 5'.pdf */,
+				90583F5211DBC4DA002B0928 /* Kawai GS-40 6' 1".pdf */,
+				90583F5311DBC4DA002B0928 /* Kawai RX1 5' 5".pdf */,
+				90583F5411DBC4DA002B0928 /* Kawai RX2 5' 10".pdf */,
+				90583F5511DBC4DA002B0928 /* Kawai RX3 6' 1".pdf */,
+				90583F5611DBC4DA002B0928 /* Kawai RX5 6' 6".pdf */,
+				90583F5711DBC4DA002B0928 /* Kawai RX6 7'.pdf */,
+				90583F5811DBC4DA002B0928 /* Kawai RX7 7' 6".pdf */,
+				90583F5911DBC4DA002B0928 /* Knabe (made prior to 1196) 5' 3".pdf */,
+				90583F5A11DBC4DA002B0928 /* Knabe (made prior to 1196) 6'.pdf */,
+				90583F5B11DBC4DA002B0928 /* Knabe (made prior to 1196) 8' 6".pdf */,
+				90583F5C11DBC4DA002B0928 /* Kohler & Campbell SKG 600S 5' 9".pdf */,
+				90583F5D11DBC4DA002B0928 /* Kohler & Campbell KIG47 & SKG 400S 4' 7".pdf */,
+				90583F5E11DBC4DA002B0928 /* Kohler & Campbell SKG 500 5' 1".pdf */,
+				90583F5F11DBC4DA002B0928 /* Mason & Hamlin A 5' 8".pdf */,
+				90583F6011DBC4DA002B0928 /* Mason & Hamlin AA 6' 4".pdf */,
+				90583F6111DBC4DA002B0928 /* Petrof IV 5' 8".pdf */,
+				90583F6211DBC4DA002B0928 /* Petrof V 5' 3".pdf */,
+				90583F6311DBC4DA002B0928 /* Reiger - Kloss 6' 1".pdf */,
+				90583F6411DBC4DA002B0928 /* Samick Sig 150 C 5' 1".pdf */,
+				90583F6511DBC4DA002B0928 /* Samick SIG50 4' 11".pdf */,
+				90583F6611DBC4DA002B0928 /* Schimmel 150 5'.pdf */,
+				90583F6711DBC4DA002B0928 /* Schimmel 174 5' 10".pdf */,
+				90583F6811DBC4DA002B0928 /* Schimmel 182 6'.pdf */,
+				90583F6911DBC4DA002B0928 /* Schimmel 208 & 213 (7') 6' 10".pdf */,
+				90583F6A11DBC4DA002B0928 /* Schimmel 256 8' 4".pdf */,
+				90583F6B11DBC4DA002B0928 /* Seiler 206 6' 8".pdf */,
+				90583F6C11DBC4DA002B0928 /* Steinway A 6' 2".pdf */,
+				90583F6D11DBC4DA002B0928 /* Steinway B 6' 10".pdf */,
+				90583F6E11DBC4DA002B0928 /* Steinway D 9'.pdf */,
+				90583F6F11DBC4DA002B0928 /* Steinway L 5' 10".pdf */,
+				90583F7011DBC4DA002B0928 /* Steinway M 5' 7".pdf */,
+				90583F7111DBC4DA002B0928 /* Steinway O 5' 10".pdf */,
+				90583F7211DBC4DA002B0928 /* Steinway S 5' 2".pdf */,
+				90583F7311DBC4DA002B0928 /* Charles R. Walter 6' 2".pdf */,
+				90583F7411DBC4DA002B0928 /* Wurlitzer 158C 5'1".pdf */,
+				90583F7511DBC4DA002B0928 /* Wurlitzer G143 4' '7".pdf */,
+				90583F7611DBC4DA002B0928 /* Yamaha C1 5' 1".pdf */,
+				90583F7711DBC4DA002B0928 /* Yamaha C2 & G2 (5'8") 5' 7".pdf */,
+				90583F7811DBC4DA002B0928 /* Yamaha C3 & G3B (6' 1"), G3 (6') 6' 1".pdf */,
+				90583F7911DBC4DA002B0928 /* Yamaha C7 7' 6".pdf */,
+				90583F7A11DBC4DA002B0928 /* Yamaha CF 9'.pdf */,
+				90583F7B11DBC4DA002B0928 /* Yamaha GA1 4' 11".pdf */,
+				90583F7C11DBC4DA002B0928 /* Yamaha GH1 & GP1 5' 3".pdf */,
+				90583F7D11DBC4DA002B0928 /* Young Chang G175; Weber WG 57; Knabe KM 590 5' 9".pdf */,
+				90583F7E11DBC4DA002B0928 /* Young Chang G185; Weber WG 60; Knabe KM 610 6' 1".pdf */,
+				90583F7F11DBC4DA002B0928 /* Young Chang G157; Weber WG 51; Knabe KM 520; Schaffer & Son 5' 2".pdf */,
+			);
+			path = Schematics;
+			sourceTree = "<group>";
+		};
+		90E29B7E11E7B4E9007472B4 /* cocos2d-iphone-0.99.3 */ = {
+			isa = PBXGroup;
+			children = (
+				90E29C1B11E7B4E9007472B4 /* CocosDenshion */,
+			);
+			path = "cocos2d-iphone-0.99.3";
+			sourceTree = "<group>";
+		};
+		90E29C1B11E7B4E9007472B4 /* CocosDenshion */ = {
+			isa = PBXGroup;
+			children = (
+				90E29C1C11E7B4E9007472B4 /* CDAudioManager.h */,
+				90E29C1D11E7B4E9007472B4 /* CDAudioManager.m */,
+				90E29C1E11E7B4E9007472B4 /* CDConfig.h */,
+				90E29C1F11E7B4E9007472B4 /* CDOpenALSupport.h */,
+				90E29C2011E7B4E9007472B4 /* CocosDenshion.h */,
+				90E29C2111E7B4E9007472B4 /* CocosDenshion.m */,
+				90E29C2211E7B4E9007472B4 /* SimpleAudioEngine.h */,
+				90E29C2311E7B4E9007472B4 /* SimpleAudioEngine.m */,
+			);
+			path = CocosDenshion;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* AllPianoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "AllPianoApp" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AllPianoApp;
+			productName = AllPianoApp;
+			productReference = 1D6058910D05DD3D006BFB54 /* AllPianoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "AllPianoApp" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* AllPianoApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
+				2899E5600DE3E45000AC0155 /* RootViewController.xib in Resources */,
+				90C6A8481141AABF00ED5AA8 /* menuVC.xib in Resources */,
+				90C6A86E1141AE3D00ED5AA8 /* cover.png in Resources */,
+				90C6EDB51141B9B9007291C8 /* Entitlements.plist in Resources */,
+				90ED263611C08740009B0B1D /* cover2.png in Resources */,
+				90ED264711C08874009B0B1D /* 440hz.wav in Resources */,
+				90D3C75A11C9820300155EF1 /* Untitled-1.png in Resources */,
+				90583F8011DBC4DA002B0928 /* Baldwin L 6' 3".pdf in Resources */,
+				90583F8111DBC4DA002B0928 /* Baldwin M 5' 2".pdf in Resources */,
+				90583F8211DBC4DA002B0928 /* Baldwin R 5' 8".pdf in Resources */,
+				90583F8311DBC4DA002B0928 /* Baldwin SF10 7'.pdf in Resources */,
+				90583F8411DBC4DA002B0928 /* Baldwin SD10 9'.pdf in Resources */,
+				90583F8511DBC4DA002B0928 /* Bechstein 5' 7".pdf in Resources */,
+				90583F8611DBC4DA002B0928 /* Bluthner Model 4 6' 10".pdf in Resources */,
+				90583F8711DBC4DA002B0928 /* Bosendorfer 170 5' 8".pdf in Resources */,
+				90583F8811DBC4DA002B0928 /* Bosendorfer 290 Imperial 9' 6".pdf in Resources */,
+				90583F8911DBC4DA002B0928 /* Boston GP156 5' 1".pdf in Resources */,
+				90583F8A11DBC4DA002B0928 /* Boston GP178 5' 10".pdf in Resources */,
+				90583F8B11DBC4DA002B0928 /* Boston GP193 6' 2".pdf in Resources */,
+				90583F8C11DBC4DA002B0928 /* Chickering 6' 4".pdf in Resources */,
+				90583F8D11DBC4DA002B0928 /* Chickering 410 4' 11".pdf in Resources */,
+				90583F8E11DBC4DA002B0928 /* Estonia 5 5 '6".pdf in Resources */,
+				90583F8F11DBC4DA002B0928 /* Estonia 7 6' 4".pdf in Resources */,
+				90583F9011DBC4DA002B0928 /* Kawai GE-1 5' 1".pdf in Resources */,
+				90583F9111DBC4DA002B0928 /* Kawai GE-2 & GE-3 (5'8") 5' '7".pdf in Resources */,
+				90583F9211DBC4DA002B0928 /* Kawai GM-1 4' 9".pdf in Resources */,
+				90583F9311DBC4DA002B0928 /* Kawai GM-2 5'.pdf in Resources */,
+				90583F9411DBC4DA002B0928 /* Kawai GS-40 6' 1".pdf in Resources */,
+				90583F9511DBC4DA002B0928 /* Kawai RX1 5' 5".pdf in Resources */,
+				90583F9611DBC4DA002B0928 /* Kawai RX2 5' 10".pdf in Resources */,
+				90583F9711DBC4DA002B0928 /* Kawai RX3 6' 1".pdf in Resources */,
+				90583F9811DBC4DA002B0928 /* Kawai RX5 6' 6".pdf in Resources */,
+				90583F9911DBC4DA002B0928 /* Kawai RX6 7'.pdf in Resources */,
+				90583F9A11DBC4DA002B0928 /* Kawai RX7 7' 6".pdf in Resources */,
+				90583F9B11DBC4DA002B0928 /* Knabe (made prior to 1196) 5' 3".pdf in Resources */,
+				90583F9C11DBC4DA002B0928 /* Knabe (made prior to 1196) 6'.pdf in Resources */,
+				90583F9D11DBC4DA002B0928 /* Knabe (made prior to 1196) 8' 6".pdf in Resources */,
+				90583F9E11DBC4DA002B0928 /* Kohler & Campbell SKG 600S 5' 9".pdf in Resources */,
+				90583F9F11DBC4DA002B0928 /* Kohler & Campbell KIG47 & SKG 400S 4' 7".pdf in Resources */,
+				90583FA011DBC4DA002B0928 /* Kohler & Campbell SKG 500 5' 1".pdf in Resources */,
+				90583FA111DBC4DA002B0928 /* Mason & Hamlin A 5' 8".pdf in Resources */,
+				90583FA211DBC4DA002B0928 /* Mason & Hamlin AA 6' 4".pdf in Resources */,
+				90583FA311DBC4DA002B0928 /* Petrof IV 5' 8".pdf in Resources */,
+				90583FA411DBC4DA002B0928 /* Petrof V 5' 3".pdf in Resources */,
+				90583FA511DBC4DA002B0928 /* Reiger - Kloss 6' 1".pdf in Resources */,
+				90583FA611DBC4DA002B0928 /* Samick Sig 150 C 5' 1".pdf in Resources */,
+				90583FA711DBC4DA002B0928 /* Samick SIG50 4' 11".pdf in Resources */,
+				90583FA811DBC4DA002B0928 /* Schimmel 150 5'.pdf in Resources */,
+				90583FA911DBC4DA002B0928 /* Schimmel 174 5' 10".pdf in Resources */,
+				90583FAA11DBC4DA002B0928 /* Schimmel 182 6'.pdf in Resources */,
+				90583FAB11DBC4DA002B0928 /* Schimmel 208 & 213 (7') 6' 10".pdf in Resources */,
+				90583FAC11DBC4DA002B0928 /* Schimmel 256 8' 4".pdf in Resources */,
+				90583FAD11DBC4DA002B0928 /* Seiler 206 6' 8".pdf in Resources */,
+				90583FAE11DBC4DA002B0928 /* Steinway A 6' 2".pdf in Resources */,
+				90583FAF11DBC4DA002B0928 /* Steinway B 6' 10".pdf in Resources */,
+				90583FB011DBC4DA002B0928 /* Steinway D 9'.pdf in Resources */,
+				90583FB111DBC4DA002B0928 /* Steinway L 5' 10".pdf in Resources */,
+				90583FB211DBC4DA002B0928 /* Steinway M 5' 7".pdf in Resources */,
+				90583FB311DBC4DA002B0928 /* Steinway O 5' 10".pdf in Resources */,
+				90583FB411DBC4DA002B0928 /* Steinway S 5' 2".pdf in Resources */,
+				90583FB511DBC4DA002B0928 /* Charles R. Walter 6' 2".pdf in Resources */,
+				90583FB611DBC4DA002B0928 /* Wurlitzer 158C 5'1".pdf in Resources */,
+				90583FB711DBC4DA002B0928 /* Wurlitzer G143 4' '7".pdf in Resources */,
+				90583FB811DBC4DA002B0928 /* Yamaha C1 5' 1".pdf in Resources */,
+				90583FB911DBC4DA002B0928 /* Yamaha C2 & G2 (5'8") 5' 7".pdf in Resources */,
+				90583FBA11DBC4DA002B0928 /* Yamaha C3 & G3B (6' 1"), G3 (6') 6' 1".pdf in Resources */,
+				90583FBB11DBC4DA002B0928 /* Yamaha C7 7' 6".pdf in Resources */,
+				90583FBC11DBC4DA002B0928 /* Yamaha CF 9'.pdf in Resources */,
+				90583FBD11DBC4DA002B0928 /* Yamaha GA1 4' 11".pdf in Resources */,
+				90583FBE11DBC4DA002B0928 /* Yamaha GH1 & GP1 5' 3".pdf in Resources */,
+				90583FBF11DBC4DA002B0928 /* Young Chang G175; Weber WG 57; Knabe KM 590 5' 9".pdf in Resources */,
+				90583FC011DBC4DA002B0928 /* Young Chang G185; Weber WG 60; Knabe KM 610 6' 1".pdf in Resources */,
+				90583FC111DBC4DA002B0928 /* Young Chang G157; Weber WG 51; Knabe KM 520; Schaffer & Son 5' 2".pdf in Resources */,
+				90583FC311DBC5A8002B0928 /* schematics.txt in Resources */,
+				9058414A11DBDC56002B0928 /* Schaffer & Son 5' 2".pdf in Resources */,
+				9058414B11DBDC56002B0928 /* Weber WG51 5' 1".pdf in Resources */,
+				9058414C11DBDC56002B0928 /* Weber WG57 5' 7".pdf in Resources */,
+				9058414D11DBDC56002B0928 /* Weber WG60 6' 1".pdf in Resources */,
+				9058414E11DBDC56002B0928 /* Wurlitzer C153 5' 1".pdf in Resources */,
+				90E2A3F811E7B792007472B4 /* Bleep.caf in Resources */,
+				90E04D0611EE58D200B7952C /* 440hzShort.caf in Resources */,
+				90B9729812023240007FD72D /* flipView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* AllPianoAppAppDelegate.m in Sources */,
+				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
+				90C6A8471141AABF00ED5AA8 /* menuVC.m in Sources */,
+				90E29FFC11E7B4EC007472B4 /* CDAudioManager.m in Sources */,
+				90E29FFD11E7B4EC007472B4 /* CocosDenshion.m in Sources */,
+				90E29FFE11E7B4EC007472B4 /* SimpleAudioEngine.m in Sources */,
+				90B9729712023240007FD72D /* flipView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Caleb Lipnicki";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AllPianoApp_Prefix.pch;
+				INFOPLIST_FILE = "AllPianoApp-Info.plist";
+				PRODUCT_NAME = AllPianoApp;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "820B06D6-97F1-4D5C-BECB-797936853934";
+				SDKROOT = iphoneos3.2;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Caleb Lipnicki";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AllPianoApp_Prefix.pch;
+				INFOPLIST_FILE = "AllPianoApp-Info.plist";
+				PRODUCT_NAME = AllPianoApp;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "820B06D6-97F1-4D5C-BECB-797936853934";
+				SDKROOT = iphoneos3.2;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "AllPianoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "AllPianoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
